@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+   background-color: #F69C09;
+    
+}
+.container {     
+width: 70%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+header {
+    
+    width: 100%;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", serif;
+    
+    
+    
+    
+}
+header h1 {
+	font-size: 350%;
+	text-align: center;
+	padding: 5%;
+	color: #F69C09;
+	text-shadow: 2px 2px 2px black;
+}
+nav {
+	padding: 2% 1%;
+}
+nav a:link {
+    padding: 0 1%;
+    text-decoration: none;
+    color: #A56703;
+}
+nav a:visited {
+color: black;
+}
+nav a:hover {
+	color: black;
+	background-color: #F69C09;
+}
+main {
+	width: 100%;
+}
+main h2 {
+    text-align: center;
+
+}
+main section.theform {
+	width: 70%;
+	margin: 0 auto;
+	
+}
+main section.theform h2 {
+	text-align: center;
+}
+main section.theform p {
+	text-align: center;
+}
+main section.theform form {
+	width: 80%;
+	margin: 0 auto;	
+}
+main section.theform form fieldset {
+	padding: 2%;
+}
+main section.theform form fieldset legend {
+	font-weight: bold;
+	font-variant: small-caps;
+}
+main section.theform form fieldset label {
+	display: block;
+}
+main section.theform form input.mybutton {
+	padding: 1%;
+	background-color: #F69C09;
+	margin-top: 2%;
+}
+/*main*/  
+figure {
+	width: 23%;
+margin:0 5% 0 3%;	
+	float: left;
+	
+}
+/*main*/  
+figure img { 
+width: 100%;
+	border: solid black 3px;
+	box-shadow: 2px 2px 1px black;
+}
+main  figure figcaption {
+	text-align: center;
+	
+}
+p {
+	
+font-size: 18px;
+	line-height: 1.7;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+main section {
+	margin-left: 5%;
+}
+main section h2 {
+	margin-left: 0;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	text-align: left;
+}
+main section ul {
+	margin-bottom: 2%;
+}
+main section ul li {
+	list-style-position: inside;
+}
+footer {
+	clear: left;
+	text-align: center;
+}
